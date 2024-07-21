@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Studentmarks{
+    public static void main(String[]args){
+        Scanner scanner=new Scanner(System.in);
+
+        System.out.println("Enter the marks of the student:");
+        int marks=Scanner.nextInt();
+
+        if(marks>=80){
+            System.out.println("Outstanding achievement");
+        }else if(mark>=70){
+            System.out.println("Excellent");
+        }else if(mark>=50){
+            System.out.println("Pass");
+        }else{
+            System.out.println("Fail");
+        }
+    }
+}
